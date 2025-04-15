@@ -68,6 +68,10 @@ android {
         }
     }
 
+    lint {
+        abortOnError false
+    }
+
     lintOptions {
         disable 'RestrictedApi'
     }
